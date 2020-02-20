@@ -1,1 +1,17 @@
-Hello world!
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: url("../../images/bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-primary-red;
+}

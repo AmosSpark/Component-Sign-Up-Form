@@ -1,1 +1,70 @@
-Hello world!
+html {
+  font-size: $root-font; /*1rem = 10px*/
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header,
+.main,
+.attribution {
+  text-align: center;
+}
+
+.header {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: $header-p-w;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.try {
+  a {
+    color: $color-font;
+    text-decoration: none;
+  }
+
+  .try-first {
+    display: block;
+  }
+}
+
+.btn {
+  color: $color-font;
+}
+
+.form {
+  input {
+    padding: 1rem;
+  }
+
+  .form-terms {
+    margin-top: 1rem;
+
+    .terms-first {
+      display: block;
+    }
+    .terms-link {
+      text-decoration: none;
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+
+  a {
+    color: $color-foot-link;
+    text-decoration: none;
+  }
+}
