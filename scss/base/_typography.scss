@@ -18,11 +18,10 @@ body {
   }
 
   p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.7;
-    font-weight: $header-p-w;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    font-weight: 400;
+    margin: 1rem 0 5rem 0;
   }
 }
 
@@ -30,10 +29,15 @@ body {
   a {
     color: $color-font;
     text-decoration: none;
+    font-size: 1.5rem;
   }
 
   .try-first {
-    display: block;
+    font-weight: 700;
+  }
+
+  .try-last {
+    font-weight: 400;
   }
 }
 
@@ -47,21 +51,34 @@ body {
   }
 
   .form-terms {
-    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 1.5rem 0 2rem 0;
 
     .terms-first {
       display: block;
     }
+
+    span {
+      color: $color-neutral-grayish;
+    }
     .terms-link {
       text-decoration: none;
+      color: red;
     }
   }
 }
 
+.btn {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
-  margin-top: 1rem;
+  margin: 1rem 0;
+  font-weight: 700;
 
   a {
     color: $color-foot-link;

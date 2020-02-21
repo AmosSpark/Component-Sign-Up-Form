@@ -1,5 +1,15 @@
 input {
-  width: 75vw;
-  margin-bottom: 1rem;
-  height: 5vh;
+  width: 70vw;
+  height: 6vh;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+
+  &:nth-child(1) {
+    margin-top: 3rem;
+  }
+
+  &::placeholder {
+    color: $color-neutral-dark;
+    font-weight: 700;
+  }
 }
