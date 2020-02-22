@@ -6,3 +6,10 @@
   border-radius: 0.6rem;
   box-shadow: 0 0.6rem rgba(0, 0, 0, 0.2);
 }
+
+@media only screen and (min-width: $desktop-size) {
+  .try {
+    width: 40vw;
+    margin-top: 1.5rem;
+  }
+}

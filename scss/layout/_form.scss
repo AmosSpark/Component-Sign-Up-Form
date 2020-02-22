@@ -7,3 +7,11 @@
   width: 82vw;
   padding-bottom: 2.5rem;
 }
+
+/*DESKTOP*/
+@media only screen and (min-width: $desktop-size) {
+  .form-section {
+    width: 40vw;
+    padding-bottom: 3rem;
+  }
+}

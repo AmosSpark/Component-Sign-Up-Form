@@ -88,6 +88,7 @@ body {
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
   color: $color-font;
+  font-weight: 700;
 }
 
 .attribution {
@@ -107,5 +108,52 @@ body {
 @media only screen and (min-width: $desktop-size) {
   html {
     font-size: 75%;
+  }
+
+  .header {
+    line-height: 1.2;
+    margin-top: 5rem;
+
+    h1 {
+      text-align: left;
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.3rem;
+      text-align: left;
+      margin-top: 2rem;
+    }
+  }
+
+  .try {
+    a {
+      font-size: 1.5rem;
+    }
+
+    br {
+      display: none;
+    }
+  }
+
+  .form {
+    input {
+      padding: 1.5rem 2rem;
+    }
+
+    .form-terms {
+      font-size: 1rem;
+
+      .terms-first {
+        display: inline;
+      }
+    }
+
+    .btn {
+      font-size: 1rem;
+    }
+
+    .attribution {
+      margin: 0;
+    }
   }
 }
