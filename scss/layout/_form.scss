@@ -1,7 +1,9 @@
 .form-section {
-  display: inline-block;
+  display: block;
   background: $form-bg;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   border-radius: 0.6rem;
   box-shadow: 0 0.6rem rgba(0, 0, 0, 0.2);
+  width: 82vw;
+  padding-bottom: 2.5rem;
 }
