@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="./css/main.css" />
 
     <title>Frontend Mentor | Intro component with sign up form</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <div class="container">
@@ -50,14 +48,34 @@
                   placeholder="First Name"
                   class="first-name"
                   autofocus
+                  required
                 />
-                <input type="text" placeholder="Last Name" class="last-name" />
+                <div class="fMsg"></div>
+
                 <input
                   type="text"
+                  placeholder="Last Name"
+                  class="last-name"
+                  required
+                />
+                <div class="lMsg"></div>
+
+                <input
+                  type="email"
                   placeholder="Email Address"
                   class="email-address"
+                  required
                 />
-                <input type="text" placeholder="Password" class="password" />
+                <div class="eMsg"></div>
+
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="password"
+                  required
+                />
+                <div class="pMsg"></div>
+
                 <button class="btn">Claim your free trial</button>
                 <p class="form-terms">
                   <span class="terms-first"

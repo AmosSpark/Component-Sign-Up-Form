@@ -60,7 +60,7 @@ body {
 
 .form {
   input {
-    padding: 3rem 2rem;
+    padding: 3rem 6rem 3rem 2rem;
   }
 
   .form-terms {
@@ -101,6 +101,44 @@ body {
     color: $color-foot-link;
     text-decoration: none;
   }
+}
+
+.pMsg,
+.fMsg,
+.lMsg,
+.eMsg {
+  // display: none;
+  visibility: hidden;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.fMsg,
+.lMsg {
+  position: relative;
+  left: 9.5rem;
+}
+
+.eMsg {
+  position: relative;
+  left: 11rem;
+}
+
+.pMsg {
+  position: relative;
+  left: 10rem;
+}
+
+.msg {
+  /*Validated Feedback Style*/
+  visibility: visible;
+  color: indianred;
+  transition: 1s;
+  // margin-bottom: 2rem; //0.5rem;
+  font-style: italic;
+  font-weight: 600;
+  position: relative;
+  // left: 10rem;
 }
 
 // DESKTOP
@@ -146,6 +184,22 @@ body {
       .terms-first {
         display: inline;
       }
+    }
+
+    .fMsg,
+    .lMsg {
+      // position: relative;
+      left: 10.7rem;
+    }
+
+    .eMsg {
+      // position: relative;
+      left: 12rem;
+    }
+
+    .pMsg {
+      // position: relative;
+      left: 11rem;
     }
 
     .btn {
