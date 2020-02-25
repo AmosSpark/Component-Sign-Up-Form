@@ -115,9 +115,10 @@ body {
 .msg {
   /*Validated Feedback Style*/
   visibility: visible;
-  color: indianred;
+  color: rgba($color: red, $alpha: 0.7);
   font-style: italic;
   font-weight: 600;
+  font-size: 1.5rem;
   position: relative;
   text-align: right;
   width: 75.5vw;
