@@ -1,4 +1,5 @@
 // VARIABLES
+
 const form = document.querySelector(".form"),
   fName = document.querySelector(".first-name"),
   fMsg = document.querySelector(".fMsg"),
@@ -82,7 +83,7 @@ const valEmail = () => {
 // Validate password
 
 const valPass = () => {
-  const re = /^[a-zA-Z0-9_\-\.]{8,12}$/;
+  const re = /([a-z0-9A-Z_\-\.@]+){8,}/;
 
   if (pass.value === "") {
     pMsg.classList.add("msg");
