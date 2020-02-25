@@ -102,7 +102,6 @@ body {
   /*Validated Feedback Style*/
   visibility: visible;
   color: indianred;
-  transition: 1s;
   font-style: italic;
   font-weight: 600;
   position: relative;
@@ -179,7 +178,8 @@ input {
   background: #6055a5;
   padding: 1.5rem;
   border-radius: 0.6rem;
-  box-shadow: 0 0.6rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0.6rem rgba(0, 0, 0, 0.2);
+  justify-self: center; }
 
 @media only screen and (min-width: 1200px) {
   .try {
@@ -199,11 +199,15 @@ input {
   flex-direction: column;
   justify-content: center;
   padding: 12rem 4rem 2rem 4rem; }
+  .container .main {
+    display: flex;
+    justify-content: center; }
 
 .header {
   color: #fff; }
 
 .form-section {
+  justify-self: center;
   display: block;
   background: #fff;
   margin-top: 2.5rem;

@@ -4,4 +4,9 @@
   flex-direction: column;
   justify-content: center;
   padding: 12rem 4rem 2rem 4rem;
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
 }

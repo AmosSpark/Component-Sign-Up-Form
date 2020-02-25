@@ -107,7 +107,6 @@ body {
 .fMsg,
 .lMsg,
 .eMsg {
-  // display: none;
   visibility: hidden;
   margin-bottom: 1.5rem;
   margin-top: 0.5rem;
@@ -117,7 +116,6 @@ body {
   /*Validated Feedback Style*/
   visibility: visible;
   color: indianred;
-  transition: 1s;
   font-style: italic;
   font-weight: 600;
   position: relative;
