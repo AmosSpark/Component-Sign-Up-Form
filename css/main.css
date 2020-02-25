@@ -98,19 +98,6 @@ body {
   margin-bottom: 1.5rem;
   margin-top: 0.5rem; }
 
-.fMsg,
-.lMsg {
-  position: relative;
-  left: 9.5rem; }
-
-.eMsg {
-  position: relative;
-  left: 11rem; }
-
-.pMsg {
-  position: relative;
-  left: 10rem; }
-
 .msg {
   /*Validated Feedback Style*/
   visibility: visible;
@@ -118,7 +105,9 @@ body {
   transition: 1s;
   font-style: italic;
   font-weight: 600;
-  position: relative; }
+  position: relative;
+  text-align: right;
+  width: 75.5vw; }
 
 @media only screen and (min-width: 1200px) {
   html {
@@ -143,13 +132,8 @@ body {
     font-size: 1rem; }
     .form .form-terms .terms-first {
       display: inline; }
-  .form .fMsg,
-  .form .lMsg {
-    left: 10.7rem; }
-  .form .eMsg {
-    left: 12rem; }
-  .form .pMsg {
-    left: 11rem; }
+  .form .msg {
+    width: 37.5vw; }
   .form .btn {
     font-size: 1rem; }
   .form .attribution {

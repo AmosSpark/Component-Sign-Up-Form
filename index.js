@@ -44,7 +44,7 @@ const valFName = () => {
     inputFN.classList.add("icon");
   } else if (!re.test(fName.value)) {
     fMsg.classList.add("msg");
-    // fMsg.textContent = "Must be between 2 - 10 alpha characters";
+    fMsg.textContent = "Must be between 2 - 10 alpha characters";
     inputFN.classList.add("icon");
   } else {
     fMsg.classList.remove("msg");
