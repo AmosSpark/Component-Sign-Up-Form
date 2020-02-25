@@ -102,7 +102,7 @@ const valPass = () => {
   } else if (!re.test(pass.value)) {
     pMsg.classList.add("msg");
     inputP.classList.add("icon");
-    // pMsg.textContent = "Must be alphanumeric between 8 - 12 characters";
+    pMsg.textContent = "Must be alphanumeric between 8 - 12 characters";
   } else {
     pMsg.classList.remove("msg");
     inputP.classList.remove("icon");
