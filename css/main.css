@@ -133,7 +133,8 @@ body {
     .form .form-terms .terms-first {
       display: inline; }
   .form .msg {
-    width: 37.5vw; }
+    width: 37.5vw;
+    font-size: 1rem; }
   .form .btn {
     font-size: 1rem; }
   .form .attribution {
