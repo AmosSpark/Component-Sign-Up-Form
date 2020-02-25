@@ -15,6 +15,7 @@ const form = document.querySelector(".form"),
   inputP = document.querySelector(".password");
 
 const loadEvents = () => {
+  form.addEventListener("submit", valForm);
   fName.addEventListener("keyup", valFName);
   lName.addEventListener("keyup", valLName);
   eMail.addEventListener("keyup", valEmail);
@@ -22,6 +23,15 @@ const loadEvents = () => {
 };
 
 // Event fn
+// Validate form on submit
+
+const valForm = e => {
+  valFName();
+  valLName();
+  valEmail();
+  valPass();
+  e.preventDefault();
+};
 
 // Validate firstname
 
