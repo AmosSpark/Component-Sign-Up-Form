@@ -147,6 +147,8 @@ body {
   outline: none;
   box-shadow: 0 0.4rem rgba(2, 151, 81, 0.8);
   cursor: pointer; }
+  .btn:hover, .btn:focus {
+    background: rgba(56, 204, 140, 0.7); }
 
 @media only screen and (min-width: 1200px) {
   .btn {
