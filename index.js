@@ -63,7 +63,7 @@ const valLName = () => {
     inputLN.classList.add("icon");
   } else if (!re.test(lName.value)) {
     lMsg.classList.add("msg");
-    // lMsg.textContent = "Must be between 2 - 10 alpha characters";
+    lMsg.textContent = "Must be between 2 - 10 alpha characters";
     inputLN.classList.add("icon");
   } else {
     lMsg.classList.remove("msg");
@@ -82,7 +82,7 @@ const valEmail = () => {
     inputEM.classList.add("icon");
   } else if (!re.test(eMail.value)) {
     eMsg.classList.add("msg");
-    // eMsg.textContent = "Looks like this is not an email";
+    eMsg.textContent = "Looks like this is not an email, yet to complete?";
     inputEM.classList.add("icon");
   } else {
     eMsg.classList.remove("msg");
