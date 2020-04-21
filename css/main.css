@@ -8,7 +8,7 @@
 
 body {
   box-sizing: border-box;
-  background-image: url("../../bg-intro-mobile.png");
+  background-image: url("https://res.cloudinary.com/amosspark/image/upload/v1587428177/bg-intro-mobile_ljxfrq.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ff7a7a; }
@@ -84,7 +84,7 @@ body {
 .attribution {
   font-size: 1.4rem;
   text-align: center;
-  margin: 1.5rem 0;
+  margin: 0;
   font-weight: 700; }
   .attribution a {
     color: #3e52a3;
@@ -229,17 +229,15 @@ input {
 /*DESKTOP*/
 @media only screen and (min-width: 1200px) {
   body {
-    background-image: url("../../bg-intro-desktop.png");
+    background-image: url("https://res.cloudinary.com/amosspark/image/upload/v1587428177/bg-intro-desktop_xhg5sp.png");
     background-size: contain; }
   .container {
     width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; }
-  .container {
-    padding: 13vh 0 13vh 0;
-    overflow: hidden; }
+    align-items: center;
+    padding: 13vh 0 8vh 0; }
   .header {
     margin-right: 5rem; }
   .header,
